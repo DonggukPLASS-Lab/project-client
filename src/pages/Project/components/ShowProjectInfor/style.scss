@@ -1,0 +1,183 @@
+.show-project{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(36, 36, 36, 0.5);
+    
+    
+    .modal__wrapper--show{
+        background: red;
+        position: fixed;
+        color: white;
+    
+        background-color: #151515;
+        width: 500px;
+        min-height: 450px;
+    
+        animation-name: animation;
+        animation-duration: 1.5s;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        z-index: 3;
+        .wrapper__header{
+            border-bottom: 1px solid #999;
+            height: 12.7%;
+            display: flex;
+            padding: 40px 0;
+            align-items: center;
+            justify-content: center;
+            p{
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            button{
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                font-size: 20px;
+                padding: 5px;
+                cursor: pointer;
+                background: #999;
+                &:hover{
+                    background: white;
+                }
+            }
+        }
+        .wrapper__btn{
+            text-align: center;
+            animation-name: animation;
+            animation-duration: 1.5s;
+            button{
+                border: none;
+                padding: 10px 25px;
+                background: #fff;
+                font-size: 16px;
+                font-weight: bold;
+                border-radius: 5px;
+                cursor: pointer;
+                outline: none;
+                &:hover{
+                    background: #ccc;
+                }
+            }
+            // display: none;
+            margin-top: 70px;
+            margin-bottom: 30px;
+        }
+        .wrapper__body{
+            text-align: left;
+            div{
+                padding: 10px;
+                span{
+                    display: inline-block;
+                    width: 50px;
+                }
+                input{
+                    width: 60%;
+                    height: 28px;
+                    padding: 5px;
+                    outline: none;
+                    position: relative;
+                }
+                select{
+                    width: 60%;
+                    padding: 5px;
+                    cursor: pointer;
+                }
+            }
+            .project-info__tag{
+                display: flex;
+                > span{
+                    display: inline-block;
+                    width: 50px;
+                }
+                .input_left{
+                    padding: 0px;
+                    width: 60%;
+                    position: relative;
+                    div:first-child{
+                        display: flex;
+                        padding: 0px 0px;
+                        input{
+                            width: 100%;
+                        }
+                    }
+                    > button{
+                        position: absolute;
+                        right: -80px;
+                        top: 0;
+                        background: #0073e9;
+                        color: white;
+                        font-weight: bold;
+                        padding: 0px 20px;
+                        height: 25px;
+                        font-size: 12px;
+                        border: none;
+                        // margin-left: 5px;
+                        cursor: pointer;
+                        &:hover{
+                            background: #0053a5;
+                        }
+
+                        
+                    }
+                    .list__tags{
+                        position: absolute;
+                        left: 0px;
+                        padding: 0;
+
+                        button{
+                            margin-right: 5px;
+                            padding: 5px;
+                            border-radius: 10px;
+                            // position: absolute;
+                            // padding: 4px 0;
+                            // font-size: 12px;
+                            // width: 50px;
+                            // margin-left: -54px;
+                            // margin-top: 2px;
+                            // border: none;
+                            // height: 25px;
+                            // background: #0073e9;
+                            // color: white;
+                            // cursor: pointer;
+                            // &:hover{
+                            //     background: #0053a5;
+                            // }
+                        }
+                        span{
+                            width: 20px;
+                        }
+                    }
+                }
+                .list__tags{
+                    // span{
+                    //     width: 20px;
+                    // }
+                }
+            }
+        }
+    }
+
+}
+
+@keyframes animation{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,39 @@
+.menu{
+    min-height: 100vh;
+    background-color: #24282A;
+    &__logo{
+        display: flex;
+        padding-top: 20px;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 30%;
+        }
+    }
+    &__text{
+        padding-top: 20px;
+        text-align: center;
+        color: white;
+        border-bottom: 1px solid #999;
+    }
+    &__list{
+        ul li{
+            border-bottom: 1px solid #999;
+            height: 40px;
+            display: flex;
+            a{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                padding-left: 20px;
+                i{
+                    padding-right: 10px;
+                }
+                // font-size: 1rem;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}

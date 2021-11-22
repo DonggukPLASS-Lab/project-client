@@ -1,0 +1,83 @@
+.project-for-grid{
+    border: 1px solid #999;
+    background: transparent;
+    border-radius: 4px;
+    transition: box-shadow 200ms ease-in-out 0s;
+    height: 230px;
+    &:hover{
+        -webkit-box-shadow: 0px 0px 8px -1px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 8px -1px rgba(255,255,255,1);
+        box-shadow: 0px 0px 8px -1px rgba(255,255,255,1);
+    }
+    &__img{
+        cursor: pointer;
+        border-bottom: 1px solid #999999;
+        position: relative;
+        overflow: hidden;
+        padding: 40px;
+
+        display: flex;
+        justify-content: center;
+        
+        img{
+            display: block;
+            height: 80px;
+            width: 80px;
+        }
+    }
+    > span{
+        height: 30px;
+        display: flex;
+        align-items: center;
+        background-color:#1C2022;
+        color: white;
+        padding: 0px 5px;
+    }
+    &__info{
+        background-color: #1C2022;
+        border-color: rgb(36, 36, 36);
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2px;
+
+        &--date{
+            font-size: 13px;
+            color: rgb(153, 153, 153);
+            display: flex;
+            align-items: center;
+            padding-left: 5px;
+        }
+        &--task{
+            top: 3px;
+            right: 10px;
+            color: rgb(153, 153, 153);
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i{
+                color: white;
+                position: relative;
+            }
+            
+            &:hover{
+                background: #24282A;
+                -webkit-box-shadow: 0px 0px 2px -1px rgba(255,255,255,1);
+                -moz-box-shadow: 0px 0px 2px -1px rgba(255,255,255,1);
+                box-shadow: 0px 0px 2px -1px rgba(255,255,255,1);
+            }
+        }
+    }
+    // &:nth-child(5n+1){
+    //     background: red;
+    //     .project-for-grid__info--task--hwk
+    //     {
+    //         transform: translateX(-100%) !important;
+    //     }
+    // }
+}
