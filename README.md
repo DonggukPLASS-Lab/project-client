@@ -65,7 +65,7 @@ $ npm start
 
 </br>
 <div align="center">
-  <img align="center" src="./docs/imgs/container-page.png" alt="Project Create Page" style="width:100%;height:100%;filter: drop-shadow(10px 10px 3px black);"/>
+  <img align="center" src="./docs/imgs/container-page.png" alt="Project Create Page" style="width:90%;height:90%;filter: drop-shadow(10px 10px 3px black);"/>
 </div>
 </br>
 #### 프로젝트 목록
