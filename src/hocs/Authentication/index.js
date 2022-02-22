@@ -12,7 +12,6 @@ import SH256 from '../../constansts/hashSHA256';
 //if exist token in localstore => OK
 //else if don't exist token => authen fail
 export default function (ComposedClass, load = false, adminRoute = null) {
-
     function Authentication(props) {
         const [authValue, setAuthValue] = useState(false);
         let user = useSelector(state => state.user);
