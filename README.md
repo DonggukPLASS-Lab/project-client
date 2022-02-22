@@ -13,10 +13,10 @@
 ---
 
 ## 목차[![](./docs/imgs/pin.svg)](#table-of-contents)
-1. [개발 환경](#dev-env)
-2. [실행 방법](#install)
-3. [기능 명세서](#feature)
-3. [개발 멤버](#member)
+1. [개발 환경](#개발-환경)
+2. [실행 방법](#실행-방법)
+3. [기능 명세서](#기능-명세서)
+3. [개발 멤버](#개발-멤버)
 
 ---
 
@@ -62,10 +62,17 @@ $ npm start
 만약에 전달하는 토큰이 일치하지 않으면 해당 페이지를 나가시킬것이다.
 
 #### 사용자 컨테이너 생성
+처음에는 유저가 프로젝트 관리 페이지를 접근 시 해당 유저의 컨테이너 상태를 확인하고 만약에 생성된 컨테이너가 없으면 "새 컨테이너 생성"이라는 버튼을 클릭하면 해당 유저의 컨테이너를 생성해준다.
 
+</br>
+<div align="center">
+  <img align="center" src="./docs/imgs/container-page.png" alt="Project Create Page" style="width:100%;height:100%;filter: drop-shadow(10px 10px 3px black);"/>
+</div>
+</br>
 #### 프로젝트 목록
 유저가 "프로젝트 생성"이라는 버튼을 클릭 시 프로젝트 생성 페이지를 노출되어서 유저가 프로젝트에 대한 기존 정보를 입력하게 된다. 프로젝트 정보를 입력한 다음에 프로젝트를 생성한다.
 
+</br>
 <div align="center">
   <img align="center" src="./docs/imgs/project-create-page.png" alt="Project Create Page" style="width:90%;height:90%;filter: drop-shadow(10px 10px 3px black);"/>
   </br></br>
@@ -82,7 +89,7 @@ $ npm start
 
 #### 웹 에디터 페이지
 유저가 접근 원하는 프로젝트를 클릭 시 해당 프로젝트 소스코드 출력하는 웹 에디터 페이지를 이동한다.
-</br>
+
 </br>
 <div align="center">
   <img align="center" src="./docs/imgs/editor-page.png" alt="Editor page" style="width:90%;height:90%;filter: drop-shadow(10px 10px 3px black);"/>
