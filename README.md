@@ -24,7 +24,7 @@
 - [Node.js](https://nodejs.org/)
 - [React.js](https://reactjs.org/)
 
-## 설치[![](./docs/imgs/pin.svg)](#install)
+## 실행 방법[![](./docs/imgs/pin.svg)](#install)
 ```bash
 
 # Clone this repository
@@ -54,7 +54,6 @@ $ npm start
   </br></br>
   <span>페이지 맵</span>
   </br>
-</br>
 </div>
 
 #### 로그인 / 페이지를 유입
