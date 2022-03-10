@@ -68,6 +68,7 @@ $ npm start
   <img align="center" src="./docs/imgs/container-page.png" alt="Project Create Page" style="width:90%;height:90%;filter: drop-shadow(10px 10px 3px black);"/>
 </div>
 </br>
+
 #### 프로젝트 목록
 유저가 "프로젝트 생성"이라는 버튼을 클릭 시 프로젝트 생성 페이지를 노출되어서 유저가 프로젝트에 대한 기존 정보를 입력하게 된다. 프로젝트 정보를 입력한 다음에 프로젝트를 생성한다.
 
